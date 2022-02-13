@@ -1,0 +1,81 @@
+Installation steps Commvault Hyperscale Environment 
+
+pre-installation check list
+
+commserve server
+hostname
+IP
+Subnet mask
+GW
+Admin Psswd
+
+
+
+DNS Server IP
+Active Directory
+email alerts
+AD Name
+
+Node Setup 
+Node Data protection Name
+Private Storage Network IP Adress
+
+
+
+
+
+IRMC connect to anode
+
+root/cvadmin
+ifconfig
+ open web browser with ip
+ login root/cvadmin
+ 
+ 
+ replace DHCP with IP 
+ 
+ enable root account for linux account
+ 
+ 
+ comm
+ 
+ use dashboard 
+ 
+ Admin Console core setup
+ 
+ https://<commserveserverName>/AdminConsole
+ use admin/<passwd> setup in initial configuration
+ 
+ lets get started
+ configure email
+ SMPTP/SMTP Port/ sender emailname/name 
+ add storage pool
+ Configure Storage
+ Select Scale out
+ select resilency level
+ Standard (3 nodes and can tolerate one node or upto 2 drives failure) /
+ High (3 nodes and can withstand upto 4 drive failures or 2 nodes)
+ 
+ 
+ select nodes part of block and select ok
+ solutions can be added later 
+ click finish later 
+ 
+ Add cloud target to hyperscale 
+ 
+ from dashboard expaND STORAGE SECTION
+ ADD STORAGE and select cloud 
+ select relevent media agent 9 Amazone S3 CVMA-1
+ 
+ access key and secret 
+ specify the bucket name of the data to be stored
+ 
+ 
+ Adding target Tape target
+ 
+ add tape storage from 
+ 
+ select tape storage
+ 
+ 
+ 
